@@ -38,5 +38,18 @@ tw
   .deleteAll()
   .start();
 
+let app3 = document.getElementById('app3');
 
+let tw1 = new Typewriter(app3, {
+    loop: true,
+    delay: 75,
+  });
+  
+tw1
+  .pauseFor(2500)
+  .typeString('Estudiante de Desarrollo de Software Multiplataforma')
+  .pauseFor(500)
+  .deleteAll()
+  .start();
+  
   

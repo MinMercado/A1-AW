@@ -30,15 +30,21 @@ body h3{
     background-position: center;
 }
 
+#presentacion2{
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(assets/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .navbar{
     background-color: rgb(139, 34, 20);
 }
 
-.icono{
-    background-color: rgb(243, 196, 67); /* Cambia el fondo a rosa */
-    color: white;
-    padding: 7px;
-}
 
 .text-shadow-1 {
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
@@ -47,7 +53,9 @@ body h3{
 .lead{
     color: rgb(0, 0, 0);
     text-align: justify;
+    animation: slideIn 1s ease-out;
 }
+
 
 .titulo-patriotico {
     font-size: 4rem; 
@@ -85,6 +93,26 @@ body h3{
     }
 }
 
-.lead {
-    animation: slideIn 1s ease-out;
+
+.icono{
+    background-color: rgb(243, 196, 67); 
+    color: white;
+    padding: 7px;
+}
+.icono2{
+    background-color: rgb(109, 241, 109);
+    color: white;
+    padding: 7px;
+}
+.icono3{
+    background-color: rgb(91, 214, 188);
+    color: white;
+    padding: 7px;
+}
+#sobremi{
+    font-size: 3rem; 
+    color: rgb(139, 39, 89);
+    font-weight: bold; 
+    text-align: center; 
+    padding: 20px; 
 }
